@@ -1,0 +1,30 @@
+.round_img {
+    border-radius: 100%;
+    height: 50px;
+}
+
+.profil_name {
+    color: #ff6060;
+    font-size: 1rem;
+    text-align: right;
+    width: min-content;
+    margin-right: 10px;
+}
+
+.profil {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+    .round_img {
+        border-radius: 100%;
+        height: 60px;
+    }
+
+    .profil_name {
+        font-size: 1rem;
+    }
+
+}

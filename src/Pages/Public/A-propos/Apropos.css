@@ -1,0 +1,36 @@
+.APropos {
+    /* max-width: 1240px; */
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.APropos h3 {
+    font-size: 24px;
+}
+
+.APropos .Dropdown_content {
+    font-size: 24px;
+}
+
+.APropos ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .APropos {
+        background-color: unset;
+        padding: 0px 0px;
+        margin-top: 43px;
+        height: 100%;
+    }
+
+    .APropos ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}

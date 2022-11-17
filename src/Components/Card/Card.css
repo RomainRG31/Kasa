@@ -1,0 +1,43 @@
+.Card {
+    position: relative;
+    height: 100%;
+    min-height: 340px;
+    border-radius: 10px;
+}
+
+.Card:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    cursor: pointer;
+}
+
+.Card-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Card:hover .Card-image {
+    opacity: 0.5;
+}
+
+.Card-sombre {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, #ffffff00 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
+}
+
+.Card-titre {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25.67px;
+    font-weight: 500;
+}

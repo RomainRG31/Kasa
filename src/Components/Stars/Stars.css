@@ -1,0 +1,12 @@
+.starImg {
+    width: 22px;
+    margin: 0px 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .starImg {
+        width: 20px;
+        margin: 0px 3px;
+    }
+
+}

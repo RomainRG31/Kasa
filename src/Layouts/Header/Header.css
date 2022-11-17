@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 57px;
+}
+
+
+header img {
+    height: 95%;
+}
+
+nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+}
+
+.navlink {
+    color: #ff6060;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.navlink:hover {
+    color: #000000;
+}
+
+
+@media only screen and (max-width : 640px) {
+
+    header {
+        flex-direction: column;
+        margin-top: 30px;
+        justify-content: space-around;
+        height: 9em;
+    }
+
+
+    header img {
+        height: 4em;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navlink {
+        margin: 0;
+    }
+
+}
