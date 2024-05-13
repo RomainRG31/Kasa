@@ -2,15 +2,15 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import LogementService from "@/_Services/Logement.service.js";
+import LogementService from "../../../_Services/Logement.service";
 
-import "@/Pages/Public/Fiche-logement/Logement.css";
+import "../../Public/Fiche-logement/Logement.css";
 
-import DropDown from "@/Components/DropDown/DropDown";
-import Gallery from "@/Components/Gallery/Gallery";
-import Profil from "@/Components/Profil/Profil";
-import Tag from "@/Components/Tag/Tag";
-import Stars from "@/Components/Stars/Stars";
+import DropDown from "../../../Components/DropDown/DropDown";
+import Gallery from "../../../Components/Gallery/Gallery";
+import Profil from "../../../Components/Profil/Profil";
+import Tag from "../../../Components/Tag/Tag";
+import Stars from "../../../Components/Stars/Stars";
 // fonction de la page Logement
 const Logement = () => {
   const [logement, setLogement] = useState({});
